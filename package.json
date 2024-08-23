@@ -1,0 +1,34 @@
+{
+  "name": "mcs-handyman-be",
+  "private": true,
+  "version": "0.1.0",
+  "description": "MCS Handyman API",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.5",
+    "@strapi/plugin-users-permissions": "4.11.5",
+    "@strapi/provider-email-nodemailer": "^4.12.7",
+    "@strapi/provider-upload-cloudinary": "^4.12.7",
+    "@strapi/strapi": "4.11.5",
+    "better-sqlite3": "8.0.1",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2"
+  },
+  "author": {
+    "name": "Fernando Correa da Silva"
+  },
+  "strapi": {
+    "uuid": "76d2b2d4-b1c5-483b-b3f0-800bf809ba51"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
